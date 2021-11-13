@@ -1,0 +1,11 @@
+.add-car-form input {
+  margin-top: 1rem;
+  width: 25rem;
+  text-align: center;
+}
+.add-car-form textarea {
+  width: 25rem;
+  height: 5rem;
+  margin-top: 1rem;
+  text-align: center;
+}

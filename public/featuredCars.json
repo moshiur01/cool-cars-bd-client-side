@@ -1,0 +1,68 @@
+[
+  {
+    "car": "Mitsubishi",
+    "car_model": "Montero",
+    "car_color": "Yellow",
+    "car_model_year": 2002,
+    "car_vin": "SAJWJ0FF3F8321657",
+    "price": 2814.46,
+    "availability": false,
+    "image": "https://img.philkotse.com/crop/600x338/2019/05/10/afa3caba-5-0365.jpg",
+    "description": "The Mitsubishi Pajero is a full-size SUV (sport utility vehicle) that was manufactured and marketed globally by Mitsubishi over four generations. It is also called Mitsubishi Montero."
+  },
+  {
+    "car": "Volkswagen",
+    "car_model": "Passat",
+    "car_color": "Maroon",
+    "car_model_year": 2008,
+    "car_vin": "WBANV9C51AC203320",
+    "price": 1731.98,
+    "availability": false,
+    "image": "https://arizonafoothillsmagazine.com/autos/wp-content/uploads/2011/11/2012-volkswagen-passat-motor-trend-car-of-the-year-maroon-front-view-scottsdale-phoenix-arizona-valley.jpg",
+    "description": "The Volkswagen Passat is a series of large family cars manufactured and marketed by the German automobile manufacturer Volkswagen since 1973, and now in its eighth generation."
+  },
+  {
+    "car": "Saturn",
+    "car_model": "L-Series",
+    "car_color": "Red",
+    "car_model_year": 2003,
+    "car_vin": "1HGCR6F34EA246317",
+    "price": 2238.35,
+    "availability": true,
+    "image": "https://img.scgpix.com/listimg/img1_0115/16/img_KGngmdCu1G.jpg",
+    "description": "The Saturn L series is a line of automobiles, sedans and station wagons that were made by Saturn Corporation in Wilmington, Delaware."
+  },
+  {
+    "car": "Jeep",
+    "car_model": "Compass",
+    "car_color": "Violet",
+    "car_model_year": 2012,
+    "car_vin": "4USBT33454L511606",
+    "price": 2732.99,
+    "availability": false,
+    "image": "https://i.ytimg.com/vi/QsD-BgWiHrw/maxresdefault.jpg",
+    "description": "The Jeep Compass is a compact crossover SUV introduced for the 2007 model year, and is now in its second generation. The first generation Compass and Patriot, its rebadged variant, were among Jeep's first crossover SUVs."
+  },
+  {
+    "car": "Mitsubishi",
+    "car_model": "Lancer Evolution",
+    "car_color": "Purple",
+    "car_model_year": 2002,
+    "car_vin": "WAU2GBFCXDN339713",
+    "price": 3849.47,
+    "availability": false,
+    "image": "https://i.pinimg.com/originals/56/e6/d3/56e6d34f3236783164fb3d4ae07a0705.jpg",
+    "description": "The Mitsubishi Lancer Evolution, commonly referred to as 'Evo', is a sports sedan based on the Lancer that was manufactured by Japanese manufacturer Mitsubishi Motors from 1992 until 2016."
+  },
+  {
+    "car": "Chevrolet",
+    "car_model": "Suburban",
+    "car_color": "Indigo",
+    "car_model_year": 2009,
+    "car_vin": "WAUSH98E96A592763",
+    "price": 1252.3,
+    "availability": false,
+    "image": "https://i.pinimg.com/originals/16/cd/b9/16cdb959fd6e205e934707e730dd9571.jpg",
+    "description": "The Chevrolet Suburban is a series of automobiles built by the Chevrolet division of General Motors. The name started in 1934 for the 1935 U.S."
+  }
+]

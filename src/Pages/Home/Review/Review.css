@@ -1,0 +1,24 @@
+.review-img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-left: 9.3rem;
+  margin-top: 0.5rem;
+}
+.rating-color {
+  color: gold;
+}
+
+@media only screen and (max-width: 668px) {
+  .review {
+    margin-right: 40px;
+    margin-left: -45px;
+  }
+
+  /* .extra-sec2 {
+    margin-left: 60px;
+  }
+  .sm-style {
+    margin-left: 30px;
+  } */
+}
