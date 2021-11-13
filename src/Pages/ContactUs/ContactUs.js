@@ -41,7 +41,7 @@ const ContactUs = () => {
           <ul className="text-muted">
             <li>Kolabagan, Dhanmondi, Dhaka</li>
             <li>(+880) 173-8958254</li>
-            <li>help@star.healthcare.com.bd</li>
+            <li>help@cool.Cars.bd</li>
           </ul>
         </div>
       </div>
