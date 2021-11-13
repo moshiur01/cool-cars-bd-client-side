@@ -67,7 +67,7 @@ const MyOrders = () => {
                   variant="danger"
                   onClick={() => handleDelete(order._id)}
                 >
-                  Danger
+                  Delete
                 </Button>
               </td>
               <td>
