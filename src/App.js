@@ -10,7 +10,6 @@ import AuthProvider from "./Pages/Context/AuthProvider/AuthProvider";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignUp/SignUp";
 import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
-import ContactUs from "./Pages/ContactUs/ContactUs";
 import Footer from "./Shared/Header/Footer/Footer";
 
 function App() {
@@ -28,9 +27,9 @@ function App() {
             <Route exact path="/exploreCars">
               <Explore></Explore>
             </Route>
-            <Route exact path="/purchase/:id">
+            <PrivateRoute exact path="/purchase/:id">
               <Purchase></Purchase>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>
             </PrivateRoute>
@@ -39,9 +38,6 @@ function App() {
             </Route>
             <Route exact path="/signUp">
               <SignUp></SignUp>
-            </Route>
-            <Route exact path="/ContactUs">
-              <ContactUs></ContactUs>
             </Route>
             <Route exact path="*">
               <NotFound></NotFound>
