@@ -4,7 +4,7 @@ import banner from "./banner.png";
 const Banner = () => {
   return (
     <Container>
-      <img className="img-fluid" src={banner} alt=""></img>
+      <img className="img-fluid my-5" src={banner} alt=""></img>
     </Container>
   );
 };

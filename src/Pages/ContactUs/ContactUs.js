@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 const ContactUs = () => {
   return (
-    <Container className="container my-5 py-5 border rounded p-5 bg-body contact-us">
+    <Container className=" shadow p-3 mb-5 bg-body rounded container my-5 py-5 border rounded p-5 bg-body contact-us">
       <h2 className="text-center mb-3">CONTACT US</h2>
       <div className="row align-items-center gx-5">
         <div className="col-lg-6 align-items-center">
@@ -41,7 +41,7 @@ const ContactUs = () => {
           <ul className="text-muted">
             <li>Kolabagan, Dhanmondi, Dhaka</li>
             <li>(+880) 173-8958254</li>
-            <li>help@cool.Cars.bd</li>
+            <li>help@cool.cars.bd</li>
           </ul>
         </div>
       </div>

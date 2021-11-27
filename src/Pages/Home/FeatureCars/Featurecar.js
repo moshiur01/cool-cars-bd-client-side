@@ -20,9 +20,9 @@ const FeatureCar = () => {
         </Container>
       ) : (
         <Row>
-          <h3 className="text-center animate__animated animate__heartBeat ">
+          <h1 className="text-center animate__animated animate__heartBeat ">
             Feature Cars
-          </h3>
+          </h1>
           <b className="text-center text-secondary mb-4">
             The cars we drive say a lot about us
           </b>

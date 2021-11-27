@@ -7,11 +7,11 @@ import {
   ListGroup,
   ListGroupItem,
   Row,
-  Spinner,
 } from "react-bootstrap";
 import Header from "../../Shared/Header/Header";
 import useCars from "../hooks/useCars/useCars";
 import { Link } from "react-router-dom";
+import loadingImage from "../Home/FeatureCars/image/laoding-image.gif";
 
 const Explore = () => {
   const { cars } = useCars();
@@ -19,18 +19,18 @@ const Explore = () => {
     <>
       <Header></Header>
       <Container className="mx-auto">
-        <h2 className="text-center my-5">Explore Your Desire Car</h2>
+        <h1 className="text-center my-5">Explore Your Desire Car</h1>
         {cars.length === 0 ? (
           <Container className="d-flex justify-content-center ">
-            <Spinner animation="grow" className="" />
+            <img src={loadingImage} className="image-fluid" alt="" />
           </Container>
         ) : (
           <Row>
             {cars.map((car) => (
               <Col sm={12} md={6} lg={4} className="my-3 ">
                 <Card
-                  className="text-center"
-                  style={{ width: "18rem", height: "28rem" }}
+                  className="text-center single-car"
+                  style={{ width: "20rem", height: "25rem" }}
                 >
                   <Card.Img
                     className="img-fluid rounded img-thumbnail"
@@ -43,19 +43,13 @@ const Explore = () => {
                     <Card.Text>
                       <ListGroup className="list-group-flush">
                         <ListGroupItem>
-                          <b>Color: </b> {car.car_color}
-                        </ListGroupItem>
-                        <ListGroupItem>
-                          <b>Model Year:</b> {car.car_model_year}
-                        </ListGroupItem>
-                        <ListGroupItem>
                           <b>Price: $</b>
                           {car.price}
                         </ListGroupItem>
                       </ListGroup>
                     </Card.Text>
                     <Link to={`purchase/${car._id}`}>
-                      <Button variant="success">Buy Now</Button>
+                      <Button variant="success fw-bold">Explore Now</Button>
                     </Link>
                   </Card.Body>
                 </Card>

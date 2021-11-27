@@ -5,12 +5,14 @@ import ContactUs from "../../ContactUs/ContactUs";
 import Banner from "../Banner/Banner";
 import FeatureCar from "../FeatureCars/Featurecar";
 import Review from "../Review/Review";
+import Info from "./Info";
 
 const Home = () => {
   return (
     <>
       <Header></Header>
       <Banner></Banner>
+      <Info></Info>
       <FeatureCar></FeatureCar>
       <div id="reviews">
         <Review></Review>

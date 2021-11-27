@@ -12,7 +12,7 @@ const Review = () => {
   }, []);
   return (
     <Container>
-      <h3 className="text-center my-4">Client's Review</h3>
+      <h2 className="text-center my-4">Client's Review</h2>
       {reviews.length === 0 ? (
         <Container className="d-flex justify-content-center ">
           <img src={loadingImage} className="image-fluid" alt="" />
@@ -23,7 +23,7 @@ const Review = () => {
             <Col className="review" sm={12} md={6} lg={4}>
               <Container>
                 <Card
-                  className="my-2 text-center"
+                  className="my-2 text-center shadow p-3 mb-5 bg-body rounded"
                   style={{ width: "25rem", height: "19rem" }}
                 >
                   <Card.Img
