@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Container, Row, Spinner } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import Rating from "react-rating";
 import "./Review.css";
+import loadingImage from "../FeatureCars/image/laoding-image.gif";
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
@@ -14,7 +15,7 @@ const Review = () => {
       <h3 className="text-center my-4">Client's Review</h3>
       {reviews.length === 0 ? (
         <Container className="d-flex justify-content-center ">
-          <Spinner animation="grow" className="mx-auto" />
+          <img src={loadingImage} className="image-fluid" alt="" />
         </Container>
       ) : (
         <Row>

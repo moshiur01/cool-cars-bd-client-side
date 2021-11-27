@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Spinner } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import SingleFeatureCar from "./SingleFeatureCar";
+import "animate.css";
+import loadingImage from "./image/laoding-image.gif";
 
 const FeatureCar = () => {
   const [cars, setCars] = useState([]);
@@ -14,11 +16,13 @@ const FeatureCar = () => {
     <Container className="my-5">
       {cars.length === 0 ? (
         <Container className="d-flex justify-content-center ">
-          <Spinner animation="grow" className="mx-auto" />
+          <img src={loadingImage} className="image-fluid" alt="" />
         </Container>
       ) : (
         <Row>
-          <h3 className="text-center">Feature Cars</h3>
+          <h3 className="text-center animate__animated animate__heartBeat ">
+            Feature Cars
+          </h3>
           <b className="text-center text-secondary mb-4">
             The cars we drive say a lot about us
           </b>

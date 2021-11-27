@@ -1,13 +1,14 @@
 import React from "react";
 import { Button, Card, Col, ListGroup, ListGroupItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./singleFeatureCar.css";
 
 const SingleFeatureCar = ({ car }) => {
   return (
     <Col sm={12} md={6} lg={4} className="my-2 mx-sm-auto feature-cars">
       <Card className="text-center" style={{ width: "18rem", height: "28rem" }}>
         <Card.Img
-          className="img-fluid rounded img-thumbnail"
+          className="img-fluid rounded img-thumbnail car-img"
           style={{ height: "15rem" }}
           variant="top"
           src={car.image}
